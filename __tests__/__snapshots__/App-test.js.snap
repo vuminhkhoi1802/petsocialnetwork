@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "height": null,
+      "justifyContent": "center",
+      "width": null,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../assets/images/background.jpg",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": null,
+          "width": null,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      placeholder="Username"
+      placeholderTextColor="rgba(255, 255, 255, 0.7)"
+      rejectResponderTermination={true}
+      style={Object {}}
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;
